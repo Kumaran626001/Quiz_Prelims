@@ -1,8 +1,8 @@
 # Quiz_Prelims
 
-A simple online quiz system built using PHP, MySQL, HTML, CSS, and JavaScript. This application allows users to participate in prelim quizzes and stores quiz data in a MySQL database. Designed for educational purposes and easy deployment.
+A simple quiz system built using PHP, MySQL, HTML, CSS, and JavaScript. This application allows users to participate in prelim quizzes and stores quiz data in a MySQL database. Designed for educational purposes.
 
-🚀 Features
+🚀 **Features**
 
 User Login & Logout
 
@@ -14,7 +14,7 @@ Database support using MySQL
 
 Clean and responsive UI
 
-🛠️ Technologies Used
+🛠️ **Technologies Used**
 
 PHP — Server-side scripting
 
