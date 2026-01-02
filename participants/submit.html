@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+     .tick-container {
+            display: none;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .tick-icon {
+            font-size: 100px;
+            color: green;
+            animation: fadeIn 2s forwards;
+        }
+        .success-message {
+            font-size: 24px;
+            color: #333;
+            animation: fadeIn 2s forwards;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+  </style>
+</head>
+<body>
+  <div class="tick-container" id="tick-container">
+    <div>
+        <span class="tick-icon">&#10003;</span>
+        <p class="success-message">Submitted successfully!</p>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // Show the tick container
+      document.querySelector("#tick-container").style.display = "flex";
+      // Redirect after 3 seconds
+      setTimeout(function() {
+          window.location.href = "../index.php"; // Change to your desired page
+      }, 3000);
+    });
+  </script>
+</body>
+</html>
